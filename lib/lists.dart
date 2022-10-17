@@ -5,13 +5,10 @@ void main(){
   bool estrangeiro = (false);
   String nickname = 'Gus';
 
-  List<dynamic> gus = [
-    idade,
-    altura,
-    estrangeiro,
-    nome,
-    nickname
-  ];
+  //List<String> gus = [ 'Gustavo', 'Henrique', 'Sales' ];
+  //ListL<dynamic> gus = [ 'Gustavo Henrique', 19, 1.79, false, 'Gus' ];
+
+  List<dynamic> gus = [ idade, altura, estrangeiro, nome, nickname ];
 
   String frase = 'Eu sou o ${gus[3]} \n'
       'eu sou estrangeiro? ${gus[2]}. \n'
