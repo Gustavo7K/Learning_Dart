@@ -16,7 +16,7 @@ void main() {
       'eu tenho $idade anos de idade \n'
       'minha altura é $altura, \n'
       'e meu nickname é $nickname. \n'
-      'Informações adicionais: eu sou estrangeiro? $estrangeiro. \n');
+      'Eu sou estrangeiro? $estrangeiro. \n');
 
   int idadeLater = int.parse(idade!);
   print('Minha idade no proximo ano será: ${idadeLater + 1}');
